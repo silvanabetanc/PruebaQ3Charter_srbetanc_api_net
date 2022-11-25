@@ -1,0 +1,13 @@
+{
+	"CodigoAplicacion": "1304",
+	"AutoCarga": true, 
+	"Reintentos": 0,
+	"ConexionServicioInterdin":"https://webservicios.interdin.info.ec/portalBancoPichincha/calidad/api/gestionTarjetas/posicionConsolidada",
+	"endpoint" : "https://rickandmortyapi.com/api/character",
+	"LLavePrivadaUno":"LLAVE_PRIVADAUNO_INTERDIN",
+	"LLavePrivadaDos":"LLAVE_PRIVADADOS_INTERDIN",
+	"LLavePrivadaTres":"LLAVE_PRIVADATRES_INTERDIN",
+	"LLavePrivadaCuatro":"LLAVE_PRIVADACUATRO_INTERDIN",
+	"LLavePrivadaCinco":"LLAVE_PRIVADACINCO_INTERDIN",
+	"LLaveSimetrica":"LLAVE_SIMETRICA_INTERDIN"
+}

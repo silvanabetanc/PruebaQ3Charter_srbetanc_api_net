@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srbetanc_api_net.API", "srbetanc_api_net\srbetanc_api_net.API\srbetanc_api_net.API.csproj", "{E83CB70F-C15D-419E-8374-1CB2154D16BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srbetanc_api_net.Domain", "srbetanc_api_net\srbetanc_api_net.Domain\srbetanc_api_net.Domain.csproj", "{71A14745-6470-42FE-A131-0A4816BA4593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srbetanc_api_net.Entity", "srbetanc_api_net\srbetanc_api_net.Entity\srbetanc_api_net.Entity.csproj", "{AB0B9178-F434-415B-A36C-FEFDC50671FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srbetanc_api_net.Infrastructure", "srbetanc_api_net\srbetanc_api_net.Infrastructure\srbetanc_api_net.Infrastructure.csproj", "{472EBA1C-95A0-47A3-A549-8BB606BEE377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srbetanc_api_net.Repository", "srbetanc_api_net\srbetanc_api_net.Repository\srbetanc_api_net.Repository.csproj", "{CEA0E44F-5C67-4E75-A716-AEE3FE6E9549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "srbetanc_api_net.Test", "srbetanc_api_net\srbetanc_api_net.Test\srbetanc_api_net.Test.csproj", "{85290D34-225A-4962-BD6B-7FDF2EB0FFBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83CB70F-C15D-419E-8374-1CB2154D16BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83CB70F-C15D-419E-8374-1CB2154D16BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83CB70F-C15D-419E-8374-1CB2154D16BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83CB70F-C15D-419E-8374-1CB2154D16BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A14745-6470-42FE-A131-0A4816BA4593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A14745-6470-42FE-A131-0A4816BA4593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A14745-6470-42FE-A131-0A4816BA4593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A14745-6470-42FE-A131-0A4816BA4593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB0B9178-F434-415B-A36C-FEFDC50671FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB0B9178-F434-415B-A36C-FEFDC50671FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB0B9178-F434-415B-A36C-FEFDC50671FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB0B9178-F434-415B-A36C-FEFDC50671FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{472EBA1C-95A0-47A3-A549-8BB606BEE377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472EBA1C-95A0-47A3-A549-8BB606BEE377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472EBA1C-95A0-47A3-A549-8BB606BEE377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472EBA1C-95A0-47A3-A549-8BB606BEE377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA0E44F-5C67-4E75-A716-AEE3FE6E9549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA0E44F-5C67-4E75-A716-AEE3FE6E9549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA0E44F-5C67-4E75-A716-AEE3FE6E9549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA0E44F-5C67-4E75-A716-AEE3FE6E9549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85290D34-225A-4962-BD6B-7FDF2EB0FFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85290D34-225A-4962-BD6B-7FDF2EB0FFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85290D34-225A-4962-BD6B-7FDF2EB0FFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85290D34-225A-4962-BD6B-7FDF2EB0FFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B56BE6B-B3D8-4481-90BC-447013999953}
+	EndGlobalSection
+EndGlobal

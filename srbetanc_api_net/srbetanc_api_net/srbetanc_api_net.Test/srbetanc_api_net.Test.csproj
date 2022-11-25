@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+	  <PackageReference Include="Moq" Version="4.18.1" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\srbetanc_api_net.Domain\srbetanc_api_net.Domain.csproj" />
+    <ProjectReference Include="..\srbetanc_api_net.Entity\srbetanc_api_net.Entity.csproj" />
+    <ProjectReference Include="..\srbetanc_api_net.Infrastructure\srbetanc_api_net.Infrastructure.csproj" />
+    <ProjectReference Include="..\srbetanc_api_net.Repository\srbetanc_api_net.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

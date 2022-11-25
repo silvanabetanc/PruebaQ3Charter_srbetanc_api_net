@@ -1,0 +1,28 @@
+trigger:
+- '*'
+
+variables:
+  buildConfiguration: 'Release'
+  isDevelopBranch: $[eq(variables['Build.SourceBranch'], 'refs/heads/develop')]
+  isReleaseBranch: $[startsWith(variables['Build.SourceBranch'], 'refs/heads/release/')]
+  testWorkingDirectory: 'srbetanc_api_net.Test'
+  testProjectFilePath: 'srbetanc_api_net.Test/srbetanc_api_net.Test.csproj'
+  sonarProjectKey: 'ws-srbetanc_api_net-netcore'
+  project: 'srbetanc_api_net.API'
+  repositoryImageName: 'bp/productos/ws-srbetanc_api_net-netcore'
+  openshiftImageStream: srbetanc_api_net
+  openshiftNamespace: productos
+
+
+resources:
+ repositories:
+   - repository: NetcoreTemplate
+     type: git
+     name: BP-DevOps-Infrastructure/common-pipeline-template-netcore
+     ref: refs/heads/masterv2
+
+extends:
+  template: init.yml@NetcoreTemplate
+  parameters:
+    netCoreVersion: '6.0.201' 
+    coverletVersion: '3.1.2' 
